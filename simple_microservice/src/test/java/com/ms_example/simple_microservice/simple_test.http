@@ -1,2 +1,4 @@
 ###
-GET http://localhost:8080/simple_microservice
+GET http://localhost:8080/simple-microservice/myService/hello
+###
+GET http://localhost:8081/myService/hello

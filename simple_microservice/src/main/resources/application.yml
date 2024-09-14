@@ -1,6 +1,6 @@
 spring:
     application:
-        name: simple_microservice
+        name: simple-microservice
 server:
     port: 8081
 
