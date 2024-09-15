@@ -38,6 +38,26 @@
             "projectName": "gateway_server",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductServiceApplication<product-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ms_example.product_service.ProductServiceApplication",
+            "projectName": "product-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConsumerServiceApplication<consumer-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ms_example.product_service.ConsumerServiceApplication",
+            "projectName": "consumer-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
